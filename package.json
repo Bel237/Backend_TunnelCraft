@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@hachther/mesomb": "^1.1.1",
+    "axios": "^1.6.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "login_signin",
+  "description": "Il s'agit d'une api d'authentification avec Express JS et MongoDB",
+  "version": "1.0.0",
+  "main": "db.js",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yannhack007/Projet-programmation-web.git#yannbiko"
+  },
+  "keywords": [
+    "authentification"
+  ],
+  "author": "YannBiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yannhack007/Projet-programmation-web/issues"
+  },
+  "homepage": "https://github.com/Yannhack007/Projet-programmation-web/tree/yannbiko#readme"
+}
